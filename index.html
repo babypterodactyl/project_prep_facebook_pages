@@ -18,7 +18,10 @@
             <!-- group items together on the far right of the navbar -->
             <form>
                 E-mail:
+
                 <input type="email" name="email">
+                Password:
+            
                 <input type="password" name="password">
                 <input type="submit" value="Log In">
             </form>
@@ -63,27 +66,31 @@
 
             <h3>Birthday</h3>
             <br>
-            <select>
+            <div class="form-group">
+            <select class="birthday">
   <option value="month">Month</option>
   </select>
-            <select>
+            <select class="birthday">>
   <option value="day">Day</option>
   </select>
-            <select>
+            <select class="birthday">>
   <option value="year">Year</option>
   </select>
 
             </select>
+          </div>
 
             <!-- Radio buttons for male or female -->
-            <form class="form">
-                <input type="radio" name="gender" value="male"> Male<br>
-                <input type="radio" name="gender" value="female"> Female<br>
+            <div class="radio">
+
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
                 <input type="radio" name="gender" value="other" checked> Other
-            </form>
+
+          </div>
 
             <!-- Sign up green button -->
-            <button>Sign Up!</button>
+            <button class="signup">Sign Up!</button>
 
         </div>
         <!-- end rightdiv -->
