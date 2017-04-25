@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+</head>
+
+<body>
+
+    <!-- Sticky nav bar with left-aligned Facebook title, then two form fields and a button aligned to the right -->
+    <div class="nav">
+        <h1>Facelook</h1>
+        <!--align to the left side of navbar-->
+
+        <div class="navbar-form">
+            <!-- group items together on the far right of the navbar -->
+            <form>
+                E-mail:
+                <input type="email" name="email">
+                <input type="password" name="password">
+                <input type="submit" value="Log In">
+            </form>
+        </div>
+
+    </div>
+
+    <div class="body-container">
+
+        <!-- Left side block of text with a large h1 -->
+        <div class="leftdiv">
+            <h1>Connect with all your friends!</h1>
+            <br>
+            <ul>
+                <li>Post photos and updates in your newsfeed</li>
+                <li>Post your status for the world to see from your profile</li>
+                <li>Get in touch with your friends by 'friending' them</li>
+                <li>Like things because you're a positive person!</li>
+            </ul>
+        </div>
+
+
+
+        <!-- Right side Sign Up h1 with several form fields below it -->
+
+        <div class="rightdiv">
+
+            <h1>Sign Up</h1>
+            <br>
+            <form>
+
+                <input type="text" placeholder="First Name"><input type="text" placeholder="Last Name">
+                <br>
+                <input type="email" placeholder="Your Email">
+                <br>
+                <input type="password" placeholder="Your New Password">
+                <br>
+                <input type="password" placeholder="Confirm Your Password">
+            </form>
+
+            <!-- dropdown arrow menus for month, day, year of birthday -->
+
+            <h3>Birthday</h3>
+            <br>
+            <select>
+  <option value="month">Month</option>
+  </select>
+            <select>
+  <option value="day">Day</option>
+  </select>
+            <select>
+  <option value="year">Year</option>
+  </select>
+
+            </select>
+
+            <!-- Radio buttons for male or female -->
+            <form class="form">
+                <input type="radio" name="gender" value="male"> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other" checked> Other
+            </form>
+
+            <!-- Sign up green button -->
+            <button>Sign Up!</button>
+
+        </div>
+        <!-- end rightdiv -->
+
+    </div>
+    <!-- end body flex container -->
+
+</body>
+
+</html>
